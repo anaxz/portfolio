@@ -1,9 +1,49 @@
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
 
+header { 
+  background-color: rgba(8, 255, 255, 0.842);
+  
+}
 
+#body-container {
+  /*background-color: rgb(255, 235, 155); */
+  padding: 10px;
+}
+
+h1 { 
+  font-family: Verdana, Tahoma, sans-serif; 
+  text-align: center;
+  padding-top: 26px;
 }
 
 nav {
+  background-color: turquoise;
+  font-size: 18px;
+  font-family: Geneva, Tahoma, sans-serif; ;
+}
+
+nav li {
   display: inline-block;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+nav a:active {
+  color: brown;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
 }
